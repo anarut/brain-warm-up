@@ -1,0 +1,16 @@
+allprojects {
+    
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+wrapper {
+    gradleVersion = '4.6'
+}
