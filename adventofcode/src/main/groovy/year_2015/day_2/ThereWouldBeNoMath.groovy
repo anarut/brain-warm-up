@@ -1,5 +1,8 @@
 package year_2015.day_2
 
+/**
+ See {@linktourl http://adventofcode.com/2015/day/2}
+ */
 class ThereWouldBeNoMath {
 
     static void main(String[] args) {
