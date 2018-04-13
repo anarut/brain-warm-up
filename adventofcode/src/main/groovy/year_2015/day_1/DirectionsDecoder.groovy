@@ -47,12 +47,4 @@ class DirectionsDecoder {
         }
         result
     }
-    
-    
-    
-    public static void main(String[] args) {
-        println new DirectionsDecoder("()()()()()(((()))()))))))))").position
-    }
-
-
 }
