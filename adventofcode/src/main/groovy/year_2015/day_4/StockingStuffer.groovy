@@ -7,6 +7,9 @@ class StockingStuffer {
 
     static void main(String[] args) {
         File file = new File(getClass().getResource('/year_2015/day_4/input.txt').toURI())
-        println file.text
+        MD5HashGenerator generator = new MD5HashGenerator(file.text)
+        
+        println "answer with 5 zero: ${generator.answerWith5Zero}"
+        println "answer with 6 zero: ${generator.answerWith6Zero}"
     }
 }
