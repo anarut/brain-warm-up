@@ -12,5 +12,5 @@ apply plugin: 'idea'
 sourceCompatibility = 1.8
 
 wrapper {
-    gradleVersion = '4.6'
+    gradleVersion = '4.7'
 }
