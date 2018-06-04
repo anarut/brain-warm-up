@@ -20,7 +20,8 @@ For example:
 
 Your puzzle input is 1321131112.
 
---- Part Two ---
+    
+    --- Part Two ---
 
 Neat, right? You might also enjoy hearing John Conway talking about this sequence (that's Conway of Conway's Game of Life fame).
 
